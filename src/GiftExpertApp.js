@@ -1,21 +1,22 @@
 import React, { useState } from 'react'
 import AddCategory from './Components/AddCategory'
+import GridCategory from './Components/GridCategory'
 
 const GiftExpertApp = () => {
 
 
-    const [categories, setCategories] = useState(['One punch', 'One piece', 'Dragon Ball'])
+    const [categories, setCategories] = useState(['One punch'])
 
     return (
         <>
             <h2>GiftExpertApp</h2>
             <hr></hr>
-            <AddCategory />
+            <AddCategory setCategories={setCategories} />
             <ol>
                 {
-                    categories.map(category => {
-                        return <li key={category}>{category}</li>
-                    })
+                    categories.map(category => (
+                        <GridCategory category={category} key={category} />
+                    ))
                 }
             </ol>
         </>

@@ -4,3 +4,45 @@
 body{
   padding: 50px;
 }
+
+input{
+  width: 100%;
+  padding: .5rem;
+  border-radius: 5px;
+  border-color: rgb(88, 88, 238);
+  color: grey;
+  
+  outline-color:rgb(63, 63, 231);
+  
+}
+input:focus{
+  background-color: rgb(230, 230, 233);
+}
+
+
+.grid-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card{
+  width: 300px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  border: 1px solid rgb(172, 167, 167);
+  box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.178);
+}
+.card img {
+  min-height: 70%;
+  display: block;
+  margin: auto;
+}
+
+.card p {
+  font-size: 1.5em;
+  padding: 2em;
+  text-align: center;
+}
+

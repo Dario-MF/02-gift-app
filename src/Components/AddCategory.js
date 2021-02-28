@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
+import Proptypes from 'prop-types'
 
-const AddCategory = () => {
+const AddCategory = ({ setCategories }) => {
     const [category, setCategory] = useState('Ingrese categoria')
 
     const handleChange = e => {
@@ -9,7 +10,13 @@ const AddCategory = () => {
     }
     const handleSubmit = e => {
         e.preventDefault()
-
+        if (category.trim().length > 2) {
+            setCategories(categories => [category, ...categories])
+            setCategory('')
+        }
+    }
+    const handleFocus = e => {
+        e.target.value = ''
     }
 
     return (
@@ -19,9 +26,14 @@ const AddCategory = () => {
                 type='text'
                 value={category}
                 onChange={handleChange}
+                onFocus={handleFocus}
             />
         </form>
     )
+}
+
+AddCategory.propTypes = {
+    setCategories: Proptypes.func.isRequired
 }
 
 export default AddCategory
