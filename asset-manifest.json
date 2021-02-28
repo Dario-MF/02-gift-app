@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/02-gift-app/static/css/main.db282390.chunk.css",
+    "main.js": "/02-gift-app/static/js/main.00cbbfac.chunk.js",
+    "main.js.map": "/02-gift-app/static/js/main.00cbbfac.chunk.js.map",
+    "runtime-main.js": "/02-gift-app/static/js/runtime-main.50c673d2.js",
+    "runtime-main.js.map": "/02-gift-app/static/js/runtime-main.50c673d2.js.map",
+    "static/js/2.5ecf4e7a.chunk.js": "/02-gift-app/static/js/2.5ecf4e7a.chunk.js",
+    "static/js/2.5ecf4e7a.chunk.js.map": "/02-gift-app/static/js/2.5ecf4e7a.chunk.js.map",
+    "index.html": "/02-gift-app/index.html",
+    "static/css/main.db282390.chunk.css.map": "/02-gift-app/static/css/main.db282390.chunk.css.map",
+    "static/js/2.5ecf4e7a.chunk.js.LICENSE.txt": "/02-gift-app/static/js/2.5ecf4e7a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50c673d2.js",
+    "static/js/2.5ecf4e7a.chunk.js",
+    "static/css/main.db282390.chunk.css",
+    "static/js/main.00cbbfac.chunk.js"
+  ]
+}
