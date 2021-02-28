@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests for <GridItem /> snapshot <GridItem /> 1`] = `
+<div
+  className="card card_item"
+>
+  <img
+    alt="titulo"
+    src="https//:localhost/image.jpg"
+  />
+  <p>
+    titulo
+  </p>
+</div>
+`;
