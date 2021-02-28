@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for <AddCategory /> test snapShot 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <h2 />
+  <input
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Proptypes from 'prop-types'
 
 const AddCategory = ({ setCategories }) => {
-    const [category, setCategory] = useState('Ingrese categoria')
+    const [category, setCategory] = useState('')
 
     const handleChange = e => {
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from "enzyme"
-import GridItem from "../Components/GridItem"
+import GridItem from "../../Components/GridItem"
 
 describe('tests for <GridItem />', () => {
     const title = 'titulo'
