@@ -28,6 +28,21 @@ describe('Test for <AddCategory />', () => {
         expect(setCategories).not.toHaveBeenCalled()
     })
     
+    test('comprobacion de llamada a setCategories y limpieza de imput', () => {
+        const input = wrapper.find('input')
+        input.simulate('change',{target:{ value: 'Hola Mundo' }})
+        
+        wrapper.find('form').simulate('submit', {preventDefault(){}})
+        
+        expect(setCategories).toHaveBeenCalled()
+        expect(setCategories).toHaveBeenCalledTimes(1) //numero maximo de llamadas
+        expect(setCategories).toHaveBeenCalledWith( expect.any(Function)) // evaluamos con que type fue llamado; Function, Number, Array...
+
+        expect(input.prop('value')).toBe('')
+        
+
+    })
+    
 
     
     
