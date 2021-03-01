@@ -16,7 +16,7 @@ const useGifts = (category) => {
                         data: gifs,
                         loading: false
                     })
-                }, 3000);
+                }, 1000);
 
             })
 
