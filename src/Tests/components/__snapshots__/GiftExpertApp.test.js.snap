@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for <GiftExpertApp /> evaluar que se impriman las categorias 1`] = `
+<Fragment>
+  <h2>
+    GiftExpertApp
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GridCategory
+      category="one Punch"
+      key="one Punch"
+    />
+    <GridCategory
+      category="Dragon Ball"
+      key="Dragon Ball"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`Test for <GiftExpertApp /> snapshot for <GiftExpertApp /> 1`] = `
+<Fragment>
+  <h2>
+    GiftExpertApp
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GridCategory
+      category="One Piece"
+      key="One Piece"
+    />
+  </ol>
+</Fragment>
+`;

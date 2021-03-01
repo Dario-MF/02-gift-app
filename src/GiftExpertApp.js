@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import AddCategory from './Components/AddCategory'
 import GridCategory from './Components/GridCategory'
 
-const GiftExpertApp = () => {
+const GiftExpertApp = ( { defaultCategories = []}) => {
 
 
-    const [categories, setCategories] = useState(['One punch'])
+    const [categories, setCategories] = useState(defaultCategories)
 
     return (
         <>

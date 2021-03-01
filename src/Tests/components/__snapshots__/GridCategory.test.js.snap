@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for component <GridCategory /> evaluar que useGifts devuelve la data correctamente 1`] = `
+<div>
+  <h2>
+    One piece
+  </h2>
+  <div
+    className="grid-cards"
+  >
+    <GridItem
+      id="1234"
+      key="1234"
+      title="titulo gift"
+      url="https://image/gif.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Test for component <GridCategory /> snapshot for <GridCategory /> 1`] = `
+<div>
+  <h2>
+    One piece
+  </h2>
+  <p>
+    Cargando...
+  </p>
+  <div
+    className="grid-cards"
+  />
+</div>
+`;

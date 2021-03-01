@@ -1,14 +1,12 @@
 import React from 'react'
 import useGifts from '../hooks/useGifts'
 import GridItem from './GridItem'
+import PropTypes from 'prop-types'
+
 
 const GridCategory = ({ category }) => {
 
-    //const [gifts, setGifts] = useState([])
-
     const { data: gifts, loading } = useGifts(category)
-
-
 
     return (
         <div>
@@ -26,6 +24,10 @@ const GridCategory = ({ category }) => {
             </div>
         </div>
     )
+}
+
+GridCategory.propTypes = {
+    category: PropTypes.string.isRequired
 }
 
 export default GridCategory

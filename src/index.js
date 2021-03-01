@@ -6,7 +6,7 @@ import './index.css';
 
 
 ReactDOM.render(
-  <GiftExpertApp />,
+  <GiftExpertApp defaultCategories={['One Piece']} />,
   document.getElementById('root')
 );
 
